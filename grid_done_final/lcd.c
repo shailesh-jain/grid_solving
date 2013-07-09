@@ -8,6 +8,11 @@
 #define EN 2
 #define lcd_port PORTC
 
+
+
+
+
+
 #define sbit(reg,bit)	reg |= (1<<bit)
 #define cbit(reg,bit)	reg &= ~(1<<bit)
 
